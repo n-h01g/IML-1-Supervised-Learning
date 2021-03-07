@@ -17,30 +17,24 @@
   - numpy
   - pandas
   - matplotlib
-  - scikit-learn
+  - tensorflow
+  - json
+  - os
 - Jupyter Notebook
 
 #### Skills
 - Data exploration
 - Data wrangling
-- Machine learning
+- Deep learning
+- Neural network design
 - Experiment design
-- Bayesian inference
-- Supervised learning
 - Optimisation
 
 ### Project Details
 
 In this project, I: 
-- applied supervised learning techniques and an analytical mind on data collected for the U.S. census to help CharityML (a fictitious charity organization) identify people most likely to donate to their cause;
-- explored the data to learn how the census data is recorded
-- applied a series of transformations and preprocessing techniques to manipulate the data into a workable format;
-- evaluated several supervised learners on the data, and considered which is best suited for the solution;
-- optimized the model I selected and presented it as my solution to CharityML; and
-- explored the chosen model and its predictions under the hood, to see just how well it's performing when considering the data it's given.
-
-I learnt:
-- how to identify when preprocessing is needed, and how to apply it;
-- how to establish a benchmark for a solution to the problem;
-- what each of several supervised learning algorithms accomplishes given a specific dataset; and
-- how to investigate whether a candidate solution model is adequate for the problem.
+- loaded an image dataset of flowers and created a pipeline;
+- defined a new, untrained feed-forward network as a classifier;
+- trained the image classifier on the dataset; 
+- plotted the loss and accuracy values achieved during training for the training and validation set; and
+- used the trained model to perform inference on the flower images.
